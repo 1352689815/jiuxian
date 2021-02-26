@@ -1,0 +1,104 @@
+<!-- 注册页 -->
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>酒仙网-白酒、红酒、洋酒、保健酒、黄酒、酒具官方旗舰店</title>
+    <link rel="shortcut icon" href="http://misc.jiuxian.com/logo/favicon.ico"
+        mce_href="http://misc.jiuxian.com/logo/favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="../css/common.css">
+    <link rel="stylesheet" href="../css/register.css">
+</head>
+
+<body>
+    <!-- header开始 -->
+    <div class="header">
+        <div class="w">
+            <div class="logo">
+                <a href="index.html"><img src="../img/logo.png" alt=""></a>
+                <span><img src="../img/slogan.jpg" alt=""></span>
+            </div>
+            <ul class="ull">
+                <li>欢迎来到酒仙网！</li>
+                <li><a href="login.html">请登录</a></li>
+                <li><span>帮助中心<i></i></span>
+                    <ul class="uls">
+                        <li><a href="javascript:;">配送说明</a></li>
+                        <li><a href="javascript:;">支付方式</a></li>
+                        <li><a href="javascript:;">售后服务</a></li>
+                        <li><a href="javascript:;">企业客户</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <!-- header结束 -->
+    <!-- main开始 -->
+    <div class="main">
+        <div class="w">
+            <div class="re">个人用户注册</div>
+            <div class="regConWrap">
+                <ul class="clearfix">
+                    <form action="#" method="post" id="phoneRegform">
+                        <li class="regCon add">
+                            <div class="regAccInfor clearfix">
+                                <div class="regLabel">用户名</div>
+                                <div class="regInputBox">
+                                    <i class="regIcon accName"></i>
+                                    <input type="text" id="uname" onblur="check()">
+                                </div><label class="lab1"></label>
+                            </div>
+                            <div class="regAccInfor clearfix">
+                                <div class="regLabel">设置密码</div>
+                                <div class="regInputBox">
+                                    <i class="regIcon accPass"></i>
+                                    <input type="password" id="upwd">
+                                </div><label class="lab3"></label>
+                            </div>
+                            <div class="regAccInfor clearfix">
+                                <div class="regLabel">确认密码</div>
+                                <div class="regInputBox">
+                                    <i class="regIcon accPass"></i>
+                                    <input type="password" id="upwd2" onblur=" check2()">
+                                </div><label class="lab2"></label>
+                            </div>
+                            <div class="regAccBut clearfix">
+                                <div class="regAgreeBox">
+                                    <input class="regAgrInput" type="checkbox" checked="checked">
+                                    <span class="regAgree">我已阅读并同意<a href="http://help.jiuxian.com/view-1-112.htm"
+                                            target="_blank">《酒仙网用户注册协议》</a></span>
+                                </div>
+                                <div class="regAgreePoint" style="display: none;" id="phone_regAgreePoint">请接受服务协议！
+                                </div>
+                            </div>
+                            <div class="regAccBut clearfix">
+                                <div class="regInputBtn">
+                                    <input name="bi_phone_register" class="regSub" type="button" id="phoneSubit"
+                                        value="立&nbsp;即&nbsp;注&nbsp;册" onclick="reg()">
+                                </div>
+                            </div>
+                        </li>
+                    </form>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!-- main结束 -->
+
+    <!-- footer开始 -->
+    <div class="footer">
+        <p>© 酒仙网 2011 jiuxian.com All Rights Reserved <a href="javascript:;">京ICP证110141号</a> 京公网安备1101050188221</p>
+        <p>购买前请确认达到法定饮酒年龄！酒仙网不销售任何含酒精产品给18岁以下人士！</p>
+    </div>
+    <!-- footer结束 -->
+
+    <script src="../js/jquery.js"></script>
+    <script src="../js/register.js"></script>
+    <script>
+
+    </script>
+</body>
+
+</html>

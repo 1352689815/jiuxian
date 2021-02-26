@@ -1,0 +1,931 @@
+.categoryBox {
+    display: none;
+}
+
+
+.srpWrap {
+    width: 100%;
+}
+
+.breadcrumb1 {
+    width: 100%;
+    height: 35px;
+    margin-bottom: 6px;
+    overflow: hidden;
+}
+
+.breadcrumb1 .line {
+    width: 100%;
+    height: 2px;
+    background-color: #c41921;
+    font-size: 0;
+}
+
+.breadcrumb1 .crumb {
+    width: 100%;
+    height: 38px;
+    line-height: 33px;
+    overflow: hidden;
+}
+
+.crumb * {
+    float: left;
+    display: inline-block;
+}
+
+.new_topNum {
+    float: right;
+    font-size: 12px;
+}
+
+.new_topNum span {
+    color: #cf010e;
+}
+
+.crumb .square {
+    width: 11px;
+    height: 11px;
+    background: url(../img/srpIcons.png) no-repeat 0 0;
+    margin: 11px 13px auto 17px;
+}
+
+.crumb .level {
+    font-size: 12px;
+    color: #333;
+}
+
+.crumb .arrow {
+    width: 8px;
+    height: 15px;
+    background: url(../img/srpIcons.png) no-repeat -18px 0;
+    margin: 9px 20px auto;
+}
+
+.crumb .level2 {
+    color: #ce020d;
+}
+
+.crumb .search {
+    width: 120px;
+    height: 24px;
+    border: 1px solid #dcdcdc;
+    margin-top: 7px;
+}
+
+#extKey {
+    width: 100px;
+    height: 22px;
+    color: #d4d4d4;
+    line-height: 18px;
+    background: transparent;
+    border: 0;
+    outline: 0;
+}
+
+.search a {
+    width: 15px;
+    height: 15px;
+    background: url(../img/srpIcons.png) no-repeat -30px 0;
+    margin-top: 4px;
+    margin-left: 2px;
+}
+
+.select {
+    width: 1198px;
+    height: auto;
+    border: 1px solid #eaeaea;
+    background-color: #f5f5f5;
+    z-index: 1;
+    position: relative;
+}
+
+.brandS {
+    border-top: 1px dotted #ccc;
+    width: 1198px;
+    overflow: hidden;
+    background-color: #f5f5f5;
+}
+
+.brandS .title {
+    width: 115px;
+    height: auto;
+    overflow: hidden;
+    float: left;
+}
+
+.brandS .title p {
+    font-size: 12px;
+    color: #cf010e;
+    margin: 10px auto 15px 15px;
+}
+
+.brandS .title .innerSearch {
+    width: 80px;
+    height: 19px;
+    border: 1px solid #d9d9d9;
+    margin-left: 15px;
+    overflow: hidden;
+    background-color: #fff;
+}
+
+.innerSearch a {
+    float: left;
+    width: 15px;
+    height: 15px;
+    background: url(../img/srpIcons.png) no-repeat -30px 0;
+    margin: 2px 3px auto 2px;
+}
+
+.innerSearch input {
+    width: 55px;
+    height: 19px;
+    overflow: hidden;
+    padding-left: 5px;
+    border: 0;
+    outline: 0;
+}
+
+.brandS .frameR {
+    width: 1083px;
+    height: auto;
+    float: right;
+    padding-top: 10px;
+    padding-left: 10px;
+    overflow: hidden;
+    background-color: #fff;
+    border-bottom: 1px dotted #ccc;
+}
+
+.frameC {
+    width: 1025px;
+    height: auto;
+    float: left;
+}
+
+.frameC .letterS {
+    width: 1025px;
+    padding-top: 10px;
+    display: none;
+}
+
+.letterS li {
+    margin-right: 7px;
+    float: left;
+}
+
+.letterS li a {
+    font-size: 12px;
+    width: 21px;
+    height: 24px;
+    text-align: center;
+    display: inline-block;
+    line-height: 19px;
+    color: #666;
+    margin-right: 5px;
+}
+
+.letterS li a:hover {
+    text-decoration: none;
+}
+
+.letterS .all {
+    width: 60px;
+    height: 24px;
+    color: #fff;
+    background: url(../img/srpIcons.png) no-repeat -34px -74px;
+    color: #fff;
+    margin-right: 5px;
+}
+
+.letterS .letter.on {
+    background: url(../img/srpIcons.png) no-repeat -34px -108px;
+    color: #fff;
+}
+
+.brandAll {
+    height: 84px;
+    overflow: hidden;
+    display: block;
+    font-size: 12px;
+}
+
+.brandAll a {
+    color: #666;
+}
+
+.brandAll a:hover {
+    color: #fff;
+    background-color: #ce020d;
+    padding: 2px 3px 0;
+    text-decoration: none;
+}
+
+.brandAll ul li {
+    display: block;
+    width: 70px;
+    height: 18px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    float: left;
+    overflow: hidden;
+}
+
+.open {
+    color: #666;
+    font-size: 12px;
+    width: 42px;
+    height: 20px;
+    padding-left: 2px;
+    border: 1px solid #ccc;
+    margin-right: 6px;
+    line-height: 20px;
+    display: inline-block;
+    position: relative;
+}
+
+.open:hover {
+    text-decoration: none;
+    color: #666;
+}
+
+.open i {
+    width: 9px;
+    height: 5px;
+    background: url(../img/srpIcons.png) no-repeat -71px -53px;
+    display: inline-block;
+    position: absolute;
+    top: 7px;
+    right: 2px;
+}
+
+.selectLine2 {
+    width: 1198px;
+    border-top: 1px dotted #ccc;
+    background-color: #f5f5f5;
+    font-size: 12px;
+}
+
+.selectLine2 .proLeft {
+    width: 115px;
+    padding-left: 15px;
+    height: auto;
+    line-height: 39px;
+    color: #cf010e;
+    float: left;
+
+}
+
+.proRight {
+    width: 1083px;
+    height: auto;
+    padding-top: 10px;
+    background-color: #fff;
+    float: left;
+}
+
+.proRight ul li {
+    float: left;
+    margin-bottom: 10px;
+}
+
+.proRight ul li a {
+    height: 20px;
+    padding: 0 6px;
+    margin-left: 8px;
+    line-height: 18px;
+    color: #666;
+}
+
+.proRight a:hover {
+    color: #fff;
+    background-color: #ce020d;
+    padding: 0 6px;
+    text-decoration: none;
+}
+
+.cqS {
+    width: 1198px;
+    border-top: 1px dotted #ccc;
+    background-color: #f5f5f5;
+    font-size: 12px;
+}
+
+.cqS .title {
+    width: 115px;
+    height: auto;
+    color: #999;
+    padding-top: 16px;
+    padding-left: 17px;
+    overflow: hidden;
+    float: left;
+    color: #cf010e;
+}
+
+.cqS .list {
+    width: 1083px;
+    background-color: #fff;
+    float: left;
+    padding-top: 10px;
+}
+
+.cqS .list ul .first {
+    width: 70px;
+    height: 18px;
+    line-height: 20px;
+    float: left;
+    border: none;
+    margin-left: 8px;
+    margin-bottom: 10px;
+}
+
+.cqS .list ul .first a {
+    color: #666;
+    padding: 0 5px;
+}
+
+.cqS .list ul .first a:hover {
+    color: #fff;
+    background-color: #ce020d;
+    padding: 0 5px;
+    text-decoration: none;
+}
+
+.moreS {
+    width: 100%;
+    height: 49px;
+    background-color: #f5f5f5;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    font-size: 12px;
+}
+
+.moreS .title {
+    width: 115px;
+    height: 49px;
+    padding-left: 15px;
+    line-height: 39px;
+    color: #cf010e;
+    float: left;
+}
+
+.moreOption {
+    height: 27px;
+    border: 1px solid #e5e5e5;
+    border-right: none;
+    margin-top: 10px;
+    background-color: #fff;
+    position: relative;
+    top: 0;
+    left: 0;
+    float: left;
+    z-index: 1;
+}
+
+.moreOption .choose {
+    float: left;
+    width: 90px;
+    height: 27px;
+    text-align: center;
+    line-height: 27px;
+    color: #666;
+    text-decoration: none;
+    border-right: 1px solid #e5e5e5;
+}
+
+.moreOption .choose i {
+    width: 9px;
+    height: 5px;
+    background: url(../img/srpIcons.png) no-repeat -86px -53px;
+    margin-top: 3px;
+    margin-left: 10px;
+    display: inline-block;
+}
+
+.moreOption .box {
+    width: 1083px;
+    height: auto;
+    padding: 10px;
+    border: 1px solid #e5e5e5;
+    background-color: #fff;
+    position: absolute;
+    top: 25px;
+    left: -1px;
+    z-index: 100;
+}
+
+.moreOption .box li {
+    float: left;
+    margin-right: 20px;
+}
+
+.moreOption .box li a {
+    font-size: 12px;
+    padding: 0 6px;
+    color: #666;
+}
+
+.moreOption .box li a:hover {
+    color: #fff;
+    background-color: #ce020d;
+    padding: 0 6px;
+    text-decoration: none;
+}
+
+.select ul,
+.moreS ul,
+.order ul {
+    margin-bottom: 0;
+}
+
+.order {
+    width: 1198px;
+    border: 1px solid #ddd;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    position: relative;
+    top: 0px !important;
+    z-index: 0;
+}
+
+.order ul {
+    border-bottom: 1px solid #ddd;
+}
+
+.order li {
+    float: left;
+}
+
+.order .tab a {
+    display: block;
+    height: 36px;
+    border-right: 1px solid #ddd;
+    text-align: center;
+    line-height: 36px;
+    color: #666;
+    font-size: 12px;
+    padding: 0 15px;
+}
+
+.order .tab a:hover {
+    text-decoration: none;
+    background-color: #c41921;
+    color: #fff;
+}
+
+.order .tab i {
+    width: 9px;
+    height: 10px;
+    background: url(../img/srpIcons.png) no-repeat -65px -108px;
+    margin-top: 13px;
+    margin-left: 3px;
+    display: inline-block;
+}
+
+.order .tab.jg i {
+    background-position: -86px -108px;
+}
+
+.tabOn {
+    background-color: #c41921;
+    color: #fff !important;
+}
+
+.priceArea {
+    width: 250px;
+    height: 36px;
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+.priceArea .left,
+.priceArea .right {
+    width: 66px;
+    height: 20px;
+    border: 1px solid #aaa;
+    margin-top: 8px;
+    position: relative;
+    margin-left: 6px;
+    overflow: hidden;
+    float: left;
+}
+
+.priceArea .zhi {
+    width: 7px;
+    height: 0;
+    border-bottom: 1px solid #aaa;
+    float: left;
+    margin-top: 19px;
+    margin-left: 3px;
+    margin-right: 3px;
+}
+
+.priceArea i {
+    margin: 0 4px;
+    line-height: 20px;
+}
+
+.priceArea input {
+    width: 50px;
+    height: 20px;
+    position: absolute;
+    top: 0;
+    right: 0px;
+    border: 0;
+    outline: 0;
+}
+
+.priceArea .sure {
+    width: 62px;
+    height: 28px;
+    overflow: hidden;
+    background-color: #fff;
+    border-top: none;
+    z-index: 9;
+    margin-top: 6px;
+    float: left;
+}
+
+.priceArea .sure a {
+    width: 45px;
+    height: 20px;
+    border: 1px solid #aaa;
+    text-align: center;
+    line-height: 20px;
+    margin-right: 10px;
+    margin-top: 2px;
+    overflow: hidden;
+    float: right;
+    color: #666;
+    font-size: 12px;
+}
+
+.order .page {
+    height: 36px;
+    float: right;
+    margin-right: 10px;
+    font-size: 12px;
+}
+
+.order .page * {
+    float: left;
+}
+
+.order .page p {
+    margin-left: 10px;
+    line-height: 36px;
+    color: #999;
+}
+
+.order .page p .cur {
+    color: #cf010e;
+}
+
+.order .page .btn {
+    width: 24px;
+    height: 24px;
+    background: url(../img/srpIcons.png) no-repeat;
+    border: 0;
+    margin-top: 7px;
+    margin-left: 10px;
+}
+
+.new_distBox {
+    width: 1196px;
+    height: 37px;
+    line-height: 37px;
+    background-color: #fffdf1;
+}
+
+
+.dOrder-city * {
+    float: left;
+    font-size: 12px;
+}
+
+.set-tit {
+    margin: 0 15px;
+
+}
+
+.depit_citydrp {
+    border: 1px solid #ddd;
+    height: 25px;
+    margin-top: 6px;
+}
+
+.depit_citydrp select {
+    margin-top: 3px;
+    border: 0;
+    outline: 0;
+}
+
+.new_distBox .new_lab {
+    font-size: 12px;
+    color: #666;
+}
+
+.new_distBox .new_lab input {
+    width: 12px;
+    height: 12px;
+    margin: 0 8px 0 15px;
+    vertical-align: middle;
+}
+
+.row li {
+    padding: 10px 10px;
+    width: 240px;
+    margin-bottom: 10px;
+    margin-right: 5px;
+    position: relative;
+    float: left;
+    background-color: #fff;
+    cursor: pointer;
+}
+
+.row li:hover {
+    box-shadow: 5px 5px 10px gray;
+}
+
+.collect_box {
+    width: 220px;
+    height: 220px;
+}
+
+.collect_box .collect {
+    cursor: pointer;
+    width: 56px;
+    height: 28px;
+    line-height: 28px;
+    text-align: center;
+    background: #d10e1a;
+    position: absolute;
+    font-size: 12px;
+    top: 192px;
+    right: 0;
+    z-index: 12;
+    color: #fff;
+}
+
+.collect i {
+    width: 11px;
+    height: 10px;
+    background: url(../img/srpIcons.png) no-repeat;
+    background-position: -14px -174px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+
+.collect_box img {
+    display: block;
+    width: 220px;
+    height: 220px;
+    margin: 5px auto;
+    overflow: hidden;
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+.collect_box:hover .collect {
+    display: block !important;
+}
+
+.price1 {
+    color: #d10e1a;
+    font-size: 14px;
+}
+
+.price1 span {
+    font-size: 20px;
+}
+
+.proName {
+    height: 30px;
+}
+
+.proName a {
+    font-size: 12px;
+    color: #666;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+}
+
+.proName a:hover,
+.proName a:hover span {
+    color: #d10e1a;
+}
+
+.proName a span {
+    color: #999;
+}
+
+.judgeAdv {
+    margin-top: 10px;
+}
+
+.judgeAdv a {
+    font-size: 12px;
+    color: #999;
+}
+
+.judgeAdv a span {
+    color: #005aa0;
+    margin-right: 5px;
+}
+
+.seller {
+    margin: 10px 0
+}
+
+.sIcon {
+    background-image: url(../img/srpIcons.png);
+    background-repeat: no-repeat;
+}
+
+.seller a {
+    font-size: 12px;
+    color: #999;
+}
+
+.seller a i {
+    display: inline-block;
+    width: 13px;
+    height: 11px;
+    background-position: -284px -286px;
+    margin-right: 5px;
+    vertical-align: middle;
+}
+
+
+#activity_3372 {
+    margin-top: 10px;
+}
+
+#activity_3372 i {
+    margin-right: 5px;
+    display: inline-block;
+    width: 43px;
+    height: 17px;
+    background-position: 1px -464px;
+    vertical-align: middle;
+}
+
+.yh {
+    display: inline-block;
+    padding: 0 5px;
+    font-size: 13px;
+    line-height: 15px;
+    border: 1px solid #d10e1a;
+    color: #d10e1a;
+    border-radius: 3px;
+    margin-right: 5px;
+}
+
+.buyArea {
+    margin-top: 10px;
+}
+
+.edit,
+.cart {
+    float: left;
+}
+
+.edit input {
+    width: 34px;
+    height: 24px;
+    line-height: 26px;
+    outline: 0;
+    border: 1px solid #ccc;
+    vertical-align: middle;
+    text-align: center;
+    font-size: 12px;
+}
+
+.edit a {
+    display: inline-block;
+    width: 22px;
+    height: 24px;
+    text-align: center;
+    line-height: 24px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    color: #999;
+    text-decoration: none;
+    vertical-align: middle;
+}
+
+.cart {
+    display: inline-block;
+    width: 118px;
+    height: 24px;
+    border: 1px solid #ccc;
+    text-align: right;
+    line-height: 24px;
+    color: #999;
+    border-radius: 3px;
+    margin-left: 7px;
+    padding-right: 10px;
+    background-position: -245px -4px;
+}
+
+.cart:hover {
+    color: #d10e1a;
+    text-decoration: none;
+}
+
+.pagination {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pagination>div {
+    height: 30px;
+    line-height: 30px;
+}
+
+.h5,
+ol {
+    display: inline-block;
+    white-space: nowrap;
+    width: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.first,
+.prev,
+.next,
+.last {
+    cursor: pointer;
+    border: 1px solid #ccc;
+}
+
+.list p {
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    border: 1px solid #ccc;
+    cursor: pointer;
+}
+
+.pagination input {
+    height: 30px;
+    outline: 0;
+}
+
+.pagination button {
+    height: 30px;
+    padding: 0 5px;
+    outline: 0;
+}
+
+/* <!-- 底部搜索 --> */
+.searchBottomBox .w {
+    height: 120px;
+    background-color: #f9f8f8;
+    margin: 30px auto;
+
+}
+
+.searchBottomBox form {
+    width: 400px;
+    margin: 0 auto 50px;
+    padding: 44px 0;
+}
+
+.searchBottomBox input {
+    width: 325px;
+    height: 30px;
+    line-height: 30px;
+    font-size: 14px;
+    color: #666;
+    float: left;
+    padding-left: 8px;
+    box-sizing: border-box;
+    border: 1px solid #d9d9d9;
+    outline: none;
+}
+
+.searchBottomBtn {
+    width: 66px;
+    height: 30px;
+    line-height: 30px;
+    font-size: 14px;
+    color: #666;
+    border-left: 1px solid #d9d9d9;
+    background-color: #efefef;
+    text-align: center;
+    float: left;
+    display: inline-block;
+}
+
+/* <!-- 底部搜索 end --> */

@@ -1,0 +1,347 @@
+.main {
+    width: 100%;
+    height: 600px;
+    background: url(../img/loginbg.jpg) no-repeat center top;
+    margin-bottom: 50px;
+    position: relative;
+}
+
+.login {
+    position: absolute;
+    top: 100px;
+    right: 260px;
+    width: 350px;
+    height: 405px;
+    background-color: #fff;
+}
+
+.jx-ewmLoginLink {
+    display: block;
+    width: 65px;
+    height: 65px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 9999;
+    cursor: pointer;
+}
+
+.jx-ewmLoginLink i {
+    width: 65px;
+    height: 65px;
+    display: block;
+    background: url(../img/regLogin-8.png) no-repeat 0 -230px;
+}
+
+.jx-pcLoginLink {
+    width: 65px;
+    height: 65px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 9999;
+    cursor: pointer;
+    display: none;
+}
+
+.jx-pcLoginLink i {
+    width: 65px;
+    height: 65px;
+    display: block;
+    background: url(../img/regLogin-8.png) no-repeat -80px -230px;
+}
+
+.loginCon,
+.loginE {
+    width: 270px;
+    height: 370px;
+    margin-left: 40px;
+    position: relative;
+}
+
+.loginCon h4 {
+    margin-top: 20px;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 10px;
+}
+
+.color {
+    margin: 15px;
+    color: #e4393c;
+}
+
+.color1 {
+    margin: 15px;
+    color: #999;
+    font-weight: 500;
+}
+
+.color1:hover {
+    color: blue;
+}
+
+.loginCon h4 a:hover {
+    text-decoration: underline;
+}
+
+.loginCon h4 span {
+    color: #ccc;
+    font-size: 14px;
+}
+
+.text,
+.pwd,
+.yzFrame {
+    width: 275px;
+    height: 40px;
+    margin-top: 20px;
+    border: 1px solid #ccc;
+}
+
+.text i,
+.pwd i,
+.yzFrame i {
+    display: inline-block;
+    width: 44px;
+    height: 40px;
+    background-color: #f7f7f7;
+    background-repeat: no-repeat;
+    vertical-align: middle;
+    background-image: url(../img/regLogin-8.png);
+    margin-top: -2px;
+    border-right: 1px solid #ccc;
+}
+
+.text i {
+    background-position: -39px 8px;
+}
+
+.pwd i {
+    background-position: -70px 8px;
+}
+
+.yzFrame i {
+    background-position: -414px 8px;
+}
+
+.text input,
+.pwd input,
+.yzFrame input {
+    width: 224px;
+    height: 40px;
+    outline: none;
+    border: none;
+    box-sizing: border-box;
+    padding-left: 10px;
+    color: #999;
+    font-size: 16px;
+}
+
+.regCheck {
+    width: 151px;
+    height: 40px;
+    margin-top: 20px;
+    border: 1px solid #ccc;
+    position: relative;
+}
+
+.loginMobil .regCheck i {
+    display: inline-block;
+    width: 44px;
+    height: 40px;
+    background-color: #f7f7f7;
+    background-repeat: no-repeat;
+    vertical-align: middle;
+    background-image: url(../img/regLogin-8.png);
+    border-right: 1px solid #ccc;
+    background-position: -251px 8px;
+}
+
+.loginMobil .regCheck input {
+    width: 105px;
+    height: 40px;
+    border: 0;
+    outline: 0;
+    box-sizing: border-box;
+    padding-left: 5px;
+}
+
+.loginMobil .regCheck .yzbtn {
+    width: 114px;
+    height: 40px;
+    position: absolute;
+    top: 0;
+    right: -122px;
+    border: 1px solid #ccc;
+    font-size: 12px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.loginBtn input {
+    width: 275px;
+    height: 40px;
+    line-height: 40px;
+    font-family: "Microsoft Yahei";
+    font-size: 16px;
+    background-color: #e10303;
+    color: #fff;
+    border-radius: 2px;
+    border: 0;
+    outline: 0;
+    cursor: pointer;
+    margin: 10px 0 0 0;
+}
+
+.moreChoice {
+    margin-top: 15px;
+}
+
+.auto {
+    float: left;
+    font-size: 12px;
+    color: #999;
+}
+
+.auto input {
+    vertical-align: middle;
+}
+
+.freeReg,
+.forGetPwd {
+    float: right;
+    font-size: 12px;
+}
+
+.forGetPwd {
+    color: #999;
+    margin-right: 15px;
+}
+
+.freeReg:hover,
+.forGetPwd:hover {
+    text-decoration: underline;
+}
+
+.cooperate {
+    position: absolute;
+    bottom: 0;
+    width: 270px;
+    border-top: 1px dashed #ccc;
+    padding-top: 15px;
+
+}
+
+.cooperate p {
+    font-size: 12px;
+    color: #999;
+    float: left;
+    line-height: 30px;
+}
+
+.cooperateWay {
+    float: right;
+}
+
+.cooperateWay a {
+    margin-left: 5px;
+}
+
+.cooperateWay i {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    background-image: url(../img/elfmap2.png);
+    background-repeat: no-repeat;
+}
+
+.cooperateWay .qq i {
+    background-position: 1px -29px;
+}
+
+.cooperateWay .qq i:hover {
+    background-position: 1px -64px;
+}
+
+.cooperateWay .sina i {
+    background-position: -43px -29px;
+}
+
+.cooperateWay .sina i:hover {
+    background-position: -43px -64px;
+}
+
+.cooperateWay .aliply i {
+    background-position: -88px -29px;
+}
+
+.cooperateWay .aliply i:hover {
+    background-position: -88px -64px;
+}
+
+.cooperateWay .baidu i {
+    background-position: -132px -29px;
+}
+
+.cooperateWay .baidu i:hover {
+    background-position: -132px -64px;
+}
+
+.loginE h4 {
+    color: #666;
+    height: 70px;
+    line-height: 70px;
+}
+
+.loginE .ewm {
+    height: 150px;
+    position: absolute;
+    top: 100px;
+    left: 60px;
+}
+
+.loginE .ewm img {
+    width: 150px;
+    height: 150px;
+}
+
+.scan {
+    position: absolute;
+    top: 285px;
+    left: 60px;
+}
+
+.scan i {
+    float: left;
+    width: 33px;
+    height: 33px;
+    background: url(../img/regLogin-8.png) no-repeat -269px -147px;
+
+}
+
+.scan p {
+    float: left;
+    color: #999;
+    line-height: 16px;
+    font-size: 12px;
+    margin-left: 10px;
+}
+
+.scan p em {
+    color: #e4393c;
+}
+
+.sCanErroLink {
+    position: absolute;
+    bottom: -10px;
+    right: 0px;
+}
+
+.sCanErroLink span a {
+    color: #666;
+    font-size: 12px;
+}
+
+.sCanErroLink span a:hover {
+    text-decoration: underline;
+}

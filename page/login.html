@@ -1,0 +1,137 @@
+<!-- 登录页 -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>酒仙网-白酒、红酒、洋酒、保健酒、黄酒、酒具官方旗舰店</title>
+    <link rel="shortcut icon" href="http://misc.jiuxian.com/logo/favicon.ico"
+        mce_href="http://misc.jiuxian.com/logo/favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="../css/common.css">
+    <link rel="stylesheet" href="../css/login.css">
+</head>
+
+<body>
+    <!-- header开始 -->
+    <div class="header">
+        <div class="w">
+            <div class="logo">
+                <a href="index.html"><img src="../img/logo.png" alt=""></a>
+                <span><img src="../img/slogan.jpg" alt=""></span>
+            </div>
+            <ul class="ull">
+                <li>欢迎来到酒仙网！</li>
+                <li><a href="register.html">免费注册</a></li>
+                <li><span>帮助中心<i></i></span>
+                    <ul class="uls">
+                        <li><a href="javascript:;">配送说明</a></li>
+                        <li><a href="javascript:;">支付方式</a></li>
+                        <li><a href="javascript:;">售后服务</a></li>
+                        <li><a href="javascript:;">企业客户</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <!-- header结束 -->
+    <!-- main开始 -->
+    <div class="main">
+        <!-- 登录模块 -->
+        <form action="#">
+            <div class="login">
+                <!-- 右上角 -->
+                <a href="#" class="jx-ewmLoginLink"><i id="logina1"></i></a>
+                <a href="#" class="jx-pcLoginLink"><i id=logina2></i></a>
+                <!-- 账号登录 -->
+                <div class="loginCon" style="display: block;">
+                    <h4>
+                        <a href="javascript:;" class="color">账号登录</a><span>|</span><a href="javascript:;"
+                            class="color1">手机动态密码登入</a>
+                    </h4>
+                    <!-- 账号密码登录 -->
+                    <div class="loginUsual" style="display: block;">
+                        <div class="text">
+                            <i></i><input type="text" placeholder="用户名/邮箱/手机号">
+                        </div>
+                        <div class="pwd">
+                            <i></i><input type="password" placeholder="密码">
+                        </div>
+
+                        <div class="loginBtn">
+                            <input type="button" value="登&nbsp;&nbsp;录">
+                        </div>
+                        <div class="moreChoice clearfix">
+                            <div class="auto">
+                                <input type="checkbox" class="check" id="auto" name="remember" value="yes">
+                                <label for="auto">自动登录</label>
+                            </div>
+                            <a href="register.html" class="freeReg">免费注册</a>
+                            <a href="#" class="forGetPwd" id="foget">忘记密码</a>
+                        </div>
+                    </div>
+                    <!-- 验证码登录 -->
+                    <div class="loginMobil" style="display: none;">
+                        <div class="text">
+                            <i></i><input type="text" placeholder="手机号">
+                        </div>
+                        <div class="yzFrame">
+                            <i></i><input type="text" placeholder="验证码">
+                        </div>
+                        <div class="regCheck">
+                            <i></i><input type="text" placeholder="密码"><input type="button" value="获取短信验证码"
+                                class="yzbtn">
+                        </div>
+
+                        <div class="loginBtn">
+                            <input type="button" value="登&nbsp;&nbsp;录">
+                        </div>
+                    </div>
+                    <!-- 合作账号登录 -->
+                    <div class="cooperate clearfix">
+                        <p>使用合作账号登录</p>
+                        <div class="cooperateWay">
+                            <a href="#" class="qq"><i></i></a>
+                            <a href="#" class="sina"><i></i></a>
+                            <a href="#" class="aliply"><i></i></a>
+                            <a href="#" class="baidu"><i></i></a>
+                        </div>
+                    </div>
+
+                </div>
+                <!-- 扫二维码登录 -->
+                <div class="loginE" style="display: none;">
+                    <h4>扫码登录</h4>
+                    <div class="ewm">
+                        <img src="../img/scancode.jfif" alt="">
+                    </div>
+                    <!-- scan扫描 -->
+                    <div class="scan clearfix">
+                        <i></i>
+                        <p>打开<em>手机酒仙APP</em><br>
+                            扫描二维码</p>
+                    </div>
+                    <div class="sCanErroLink">
+                        <span>
+                            <a href="login.html">账号密码登录</a>
+                            <a href="register.html">免费注册</a>
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </form>
+    </div>
+    <!-- main结束 -->
+    <!-- footer开始 -->
+    <div class="footer">
+        <p>© 酒仙网 2011 jiuxian.com All Rights Reserved <a href="javascript:;">京ICP证110141号</a> 京公网安备1101050188221</p>
+        <p>购买前请确认达到法定饮酒年龄！酒仙网不销售任何含酒精产品给18岁以下人士！</p>
+    </div>
+    <!-- footer结束 -->
+    <script src="../js/jquery.js"></script>
+    <script src="../js/ajax.js"></script>
+    <script src="../js/cookie.js"></script>
+    <script src="../js/login.js"></script>
+</body>
+
+</html>

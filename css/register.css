@@ -1,0 +1,184 @@
+.main {
+    width: 100%;
+    height: 600px;
+    background: url(../img/bg.jpg) repeat-x;
+    padding-top: 72px;
+    box-sizing: border-box;
+
+}
+
+.main .w {
+    position: relative;
+}
+
+.regConWrap {
+    width: 994px;
+    height: 500px;
+    background-color: #fff;
+    border: 3px solid #eaeaea;
+    border-radius: 5px;
+    box-shadow: 1px 6px 11px #e4e4e4;
+    position: relative;
+    overflow: hidden;
+}
+
+.re {
+    width: 150px;
+    height: 35px;
+    border: 3px solid #eaeaea;
+    border-bottom: none;
+    text-align: center;
+    line-height: 35px;
+    border-radius: 5px 5px 0 0;
+    color: #ff9900;
+    background-color: #fff;
+    position: absolute;
+    top: -36px;
+    right: 120px;
+    z-index: 1;
+}
+
+.regConWrap ul {
+    width: 2000px;
+    height: 450px;
+}
+
+.regConWrap ul li.add {
+    width: 784px;
+    padding: 55px 0 0 125px;
+    float: left;
+}
+
+.regAccInfor {
+    margin-bottom: 20px;
+}
+
+.regLabel {
+    width: 230px;
+    height: 42px;
+    line-height: 42px;
+    text-align: right;
+    font-size: 16px;
+    padding-right: 30px;
+    float: left;
+}
+
+.regInputBox {
+    width: 300px;
+    height: 40px;
+    border: 1px solid #ccc;
+    float: left;
+    position: relative;
+}
+
+.regInputBox input {
+    width: 255px;
+    height: 40px;
+    border: 0;
+    outline: 0;
+    color: #999;
+    font-size: 24px;
+    padding-left: 45px;
+}
+
+.regBtnBox {
+    width: 148px;
+    height: 40px;
+    border: 1px solid #ccc;
+    float: left;
+    position: relative;
+}
+
+.regIcon {
+    display: inline-block;
+    width: 26px;
+    height: 26px;
+    background-image: url(../img/regLogin-8.png);
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 7px;
+    left: 12px;
+}
+
+
+
+.accName {
+    background-position: -49px 2px;
+}
+
+.accCap {
+    background-position: -423px 2px;
+}
+
+.accPass {
+    background-position: -79px 2px;
+}
+
+
+.regAccBut {
+    margin: 8px 0 0 260px;
+}
+
+.regAccBut .regAgreePoint {
+    font-size: 12px;
+    margin-top: 5px;
+    color: #cc0000;
+    padding-left: 24px;
+}
+
+.regAgree {
+    font-size: 12px;
+    color: #999;
+    margin-left: 10px;
+    margin-top: 12px;
+    margin-bottom: 9px;
+}
+
+.regAgree a {
+    color: #0066cc;
+}
+
+.regAgree a:hover {
+    text-decoration: underline;
+}
+
+.regInputBtn {
+    height: 42px;
+    width: 302px;
+    float: left;
+    position: relative;
+    margin-top: 5px;
+}
+
+.regInputBtn .regSub {
+    width: 302px;
+    height: 42px;
+    font-size: 18px;
+    font-family: "微软雅黑";
+    color: #fff;
+    border-radius: 2px;
+    border: none;
+    background: #e10303;
+    cursor: pointer;
+    outline: 0;
+}
+
+.lab1 {
+    font-size: 14px;
+    line-height: 40px;
+    margin-left: 10px;
+}
+
+.lab2 {
+    font-size: 14px;
+    color: red;
+    line-height: 40px;
+    margin-left: 10px;
+}
+
+.lab3 {
+    font-size: 14px;
+    color: red;
+    line-height: 40px;
+    margin-left: 10px;
+}

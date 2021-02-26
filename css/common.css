@@ -1,0 +1,171 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+i,
+em {
+    font-style: normal;
+}
+
+.w {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+html,
+body {
+    width: 100%;
+}
+
+.clearfix:after {
+    content: '.';
+    clear: both;
+    height: 0;
+    overflow: hidden;
+    display: block;
+    visibility: hidden;
+}
+
+.clearfix {
+    zoom: 1;
+}
+
+
+.header {
+    width: 100%;
+    height: 88px;
+    box-shadow: 1px 2px 6px #e1e1e1;
+    position: relative;
+    z-index: 1;
+}
+
+.header .w {
+    height: 100%;
+}
+
+.logo {
+    float: left;
+}
+
+.logo a {
+    margin-right: 5px;
+}
+
+.logo img {
+    margin-top: 11px;
+}
+
+.ull {
+    float: right;
+    margin-top: 37px;
+}
+
+.ull>li {
+    float: left;
+    font-size: 12px;
+    margin: 0 15px;
+    line-height: 14px;
+    color: #666;
+    box-sizing: border-box;
+    padding-top: 5px;
+    border: 1px solid transparent;
+    border-bottom: none;
+    background-color: #fff;
+}
+
+.ull>li>span {
+    margin: 0 10px;
+}
+
+.ull>li a {
+    color: #0066cc;
+}
+
+.ull>li i {
+    display: inline-block;
+    width: 15px;
+    height: 14px;
+    background: url(../img/regLogin-8.png) no-repeat -23px 0;
+    cursor: pointer;
+    margin-left: 5px;
+    vertical-align: middle;
+
+}
+
+.ull>li:last-child {
+    cursor: pointer;
+    position: relative;
+    z-index: 1;
+}
+
+.ull>li:last-child:hover {
+    border: 1px solid #ccc;
+}
+
+.ull>li:last-child:hover .uls {
+    display: block;
+}
+
+.ull>li>a:hover {
+    text-decoration: underline;
+}
+
+.uls {
+    width: 100%;
+    display: none;
+    margin-top: 5px;
+}
+
+.uls li {
+    width: 100%;
+    border-top: 1px dashed #ccc;
+    padding-left: 10px;
+    height: 24px;
+    line-height: 24px;
+    background: #fff;
+    box-sizing: border-box;
+}
+
+.uls li a {
+    color: #999;
+}
+
+.uls li a:hover {
+    text-decoration: underline;
+}
+
+
+.footer {
+    width: 100%;
+    height: 100px;
+    text-align: center;
+    font-size: 12px;
+    color: #666;
+}
+
+.footer a {
+    color: #666;
+}
+
+.footer a:hover {
+    color: #ca1111;
+    text-decoration: underline;
+}
+
+.footer p {
+    line-height: 30px;
+}
+
+.footer p:last-child {
+    color: #ff0000;
+    ;
+}
